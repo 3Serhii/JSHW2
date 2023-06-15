@@ -11,17 +11,17 @@ let operator = prompt("Typer OPERATOR");
 
 switch (operator) {
     case "+":
-        let resultAdd = alert ("Your result is: " +(leftOperand + rightOperand))
+        let resultAdd = alert (`${leftOperand}+${rightOperand} =` + (leftOperand + rightOperand))
         break;
     case "-":
-        let resultMinus = alert ("Your result is: " +(leftOperand - rightOperand))
+        let resultMinus = alert (`${leftOperand}-${rightOperand} =` + (leftOperand - rightOperand))
         break;
     // …
     case "*":
-        let resultMulty = alert ("Your result is: " +(leftOperand * rightOperand))
+        let resultMulty = alert (`${leftOperand}*${rightOperand} =` + (leftOperand * rightOperand))
         break;
     case "/":
-        let resultDivide = alert ("Your result is: " +(leftOperand / rightOperand))
+        let resultDivide = alert (`${leftOperand}/${rightOperand} =` + (leftOperand / rightOperand))
         break;
 }
 
